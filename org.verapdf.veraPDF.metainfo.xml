@@ -35,6 +35,17 @@
   <update_contact>nbenitezl_AT_gmail.com</update_contact>
   <content_rating type="oars-1.1"/>
   <releases>
+  	<release version="2.0.72" date="2021-01-30">
+    <description>
+      <ul>
+          <li>New version 2.0.72</li>
+          <li>Flathub packaging: Rename CLI command to official name 'verapdf'. Example calls:</li>
+          <li>flatpak run --command=verapdf org.verapdf.veraPDF --help</li>
+          <li>flatpak run --command=verapdf org.verapdf.veraPDF -x some_file.pdf</li>
+      </ul>
+    </description>
+    <url>https://github.com/veraPDF/veraPDF-apps/releases/tag/v2.0.72</url>
+    </release>
     <release version="1.17.31-1" date="2021-01-29">
     <description>
       <ul>

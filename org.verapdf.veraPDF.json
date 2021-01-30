@@ -95,11 +95,10 @@
                 "mv verapdf-izpack-installer-*.jar /app/verapdf/verapdf-installer.jar",
                 "install -Dm644 auto-install.xml /app/verapdf/auto-install.xml",
                 "cd /app/verapdf && /app/jre/bin/java -jar verapdf-installer.jar auto-install.xml",
-                "cp /app/verapdf/verapdf-gui /app/verapdf/verapdf-cli",
                 "patch --verbose /app/verapdf/verapdf-gui verapdf-gui.patch",
-                "patch --verbose /app/verapdf/verapdf-cli verapdf-cli.patch",
+                "patch --verbose /app/verapdf/verapdf verapdf-CLI.patch",
                 "ln -s /app/verapdf/verapdf-gui /app/bin/verapdf-gui",
-                "ln -s /app/verapdf/verapdf-cli /app/bin/verapdf-cli",
+                "ln -s /app/verapdf/verapdf /app/bin/verapdf",
                 "mv /app/verapdf/config /app/verapdf/config-default",
                 "ln -s ../../var/config /app/verapdf/config"
             ],
@@ -110,8 +109,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://software.verapdf.org/develop/2.0/verapdf-greenfield-2.0.68-installer.zip",
-                    "sha256": "3051abadaec2f6e6b8ece0cd02a78eb995650eb11e6e306dd0147d524479b987"
+                    "url": "https://software.verapdf.org/develop/2.0/verapdf-greenfield-2.0.72-installer.zip",
+                    "sha256": "9e74d3b6c6d9407a1649f31d0bfd326d1946f7a006e3efc0e9d6dc5e091ac274"
                 },
                 {
                   "type": "file",
@@ -136,7 +135,7 @@
                 },
                 {
                   "type": "file",
-                  "path": "verapdf-cli.patch"
+                  "path": "verapdf-CLI.patch"
                 }
             ]
         }
