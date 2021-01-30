@@ -1,0 +1,18 @@
+--- verapdfOLD	2021-01-30 17:44:56.080670039 -0400
++++ verapdf	2021-01-30 17:46:02.494853285 -0400
+@@ -118,6 +118,15 @@
+   [ -n "$REPO" ] && REPO=`cygpath --path --windows "$REPO"`
+ fi
+ 
++# Allow Java CreateTempFile API to work under flatpak
++# Needs flatpak "--filesystem=xdg-cache" or "--filesystem=home"
++export JAVA_TOOL_OPTIONS="-Djava.io.tmpdir=${XDG_CACHE_HOME}/tmp"
++
++# We saved original config files in read-only location 'config-default'
++# copy them to 'config' writable dir before launching app
++# This workarounds known flatpak limitation, see https://github.com/flatpak/flatpak/issues/545#issuecomment-278931352
++cp -u /app/verapdf/config-default/* /var/config/
++
+ exec "$JAVACMD" $JAVA_OPTS  \
+   -classpath "$CLASSPATH" \
+   -Dfile.encoding="UTF8" \
