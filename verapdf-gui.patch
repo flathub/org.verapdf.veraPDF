@@ -1,6 +1,6 @@
 --- verapdf-gui.sh	2021-01-15 23:19:05.928387737 -0400
 +++ verapdf-gui.sh	2021-01-16 13:03:01.368223370 -0400
-@@ -125,6 +125,32 @@
+@@ -125,6 +125,33 @@
  # If you have problems with a cramped window and invisible window controls you can increase the SCALE_FACTOR below to 1.5 or even 2.0
  SCALE_FACTOR=1.0
  
@@ -30,13 +30,13 @@
 +# This workarounds known flatpak limitation, see https://github.com/flatpak/flatpak/issues/545#issuecomment-278931352
 +cp -u /app/verapdf/config-default/* /var/config/
 +
++# --frameScale was intended for Windows, produces bad results on Unix (linux) see https://github.com/veraPDF/veraPDF-library/issues/993
  exec "$JAVACMD" $JAVA_OPTS  \
    -classpath "$CLASSPATH" \
    -Dfile.encoding="UTF8" \
-@@ -135,5 +157,5 @@
+@@ -135,5 +157,4 @@
    -Dapp.home="$BASEDIR" \
    -Dbasedir="$BASEDIR" \
    org.verapdf.apps.GreenfieldGuiWrapper \
 -  "--frameScale" "$SCALE_FACTOR" \
-+# --frameScale was intended for Windows, produces bad results on Unix (linux) see https://github.com/veraPDF/veraPDF-library/issues/993
    "$@"
