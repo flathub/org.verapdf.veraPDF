@@ -109,12 +109,12 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://software.verapdf.org/develop/2.0/verapdf-greenfield-2.0.72-installer.zip",
-                    "sha256": "9e74d3b6c6d9407a1649f31d0bfd326d1946f7a006e3efc0e9d6dc5e091ac274"
+                    "url": "https://software.verapdf.org/rel/1.20/verapdf-greenfield-1.20.1-installer.zip",
+                    "sha256": "3348aa37d1833bc294911a0db4fe49fea43c2faae0abc4ad4b9c4173b4259a02"
                 },
                 {
                   "type": "file",
-                  "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-apps/v2.0.68/gui/src/main/resources/org/verapdf/gui/images/icon.png",
+                  "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-apps/v1.20.1/gui/src/main/resources/org/verapdf/gui/images/icon.png",
                   "sha256": "32a7bbe7a7107dffa44cf601fc2af818806d6b9ca13056cea9f033264ced0b4f"
                 },
                 {
