@@ -35,6 +35,15 @@
   <update_contact>nbenitezl_AT_gmail.com</update_contact>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release version="1.20.3" date="2022-05-19">
+      <description>
+        <ul>
+          <li>New version 1.20.3</li>
+          <li>Minor patch to improve handling of out of memory errors.</li>
+        </ul>
+      </description>
+      <url>https://github.com/veraPDF/veraPDF-apps/releases/tag/v1.20.3</url>
+    </release>
     <release version="1.20.1" date="2022-01-20">
       <description>
         <ul>
