@@ -1,7 +1,7 @@
 {
     "id": "org.verapdf.veraPDF",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "22.08.3",
+    "runtime-version": "22.08",
     "command": "verapdf-gui",
     "sdk": "org.freedesktop.Sdk",
     "sdk-extensions": ["org.freedesktop.Sdk.Extension.openjdk11"],
