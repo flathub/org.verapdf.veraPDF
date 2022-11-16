@@ -35,6 +35,28 @@
   <update_contact>nbenitezl_AT_gmail.com</update_contact>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release version="1.22.2" date="2022-05-19">
+      <description>
+        <ul>
+          <li>New version 1.22.3</li>
+          <li>Added HTML and JSON report formats in the CLI app.</li>
+          <li>Fixed CLI scripts for Windows to support arbitrary characters in the veraPDF installation folder.</li>
+          <li>Fixed file drag&drop functionality for the GUI app on macOS.</li>
+          <li>Force MRR report format if policy checks are enabled.</li>
+          <li>Added support for user-specific config directory.</li>
+          <li>Aded option to include all warnings into the validation report (both GUI and CLI)</li>
+          <li>added verbosity level to CLI app to control the level of visible warnings</li>
+          <li>exit after displaying a help message if CLI is invoked without parameters</li>
+          <li>Fixed check for veraPDF updates from the GUI app.</li>
+          <li>Added support for evaluating PDF functions.</li>
+          <li>Added support for PDF 2.0 namespace mechanism.</li>
+          <li>Added support for standard structure types in PDF 2.0 namespace.</li>
+          <li>Added support for Java 17.</li>
+          <li>Added support for Java Platform Module System (JPMS)</li>
+        </ul>
+      </description>
+      <url>https://github.com/veraPDF/veraPDF-library/releases/tag/v1.22.2</url>
+    </release>
     <release version="1.20.3" date="2022-05-19">
       <description>
         <ul>
