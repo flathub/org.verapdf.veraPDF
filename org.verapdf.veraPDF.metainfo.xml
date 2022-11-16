@@ -41,7 +41,7 @@
           <li>New version 1.22.3</li>
           <li>Added HTML and JSON report formats in the CLI app.</li>
           <li>Fixed CLI scripts for Windows to support arbitrary characters in the veraPDF installation folder.</li>
-          <li>Fixed file drag&drop functionality for the GUI app on macOS.</li>
+          <li>Fixed file drag &amp; drop functionality for the GUI app on macOS.</li>
           <li>Force MRR report format if policy checks are enabled.</li>
           <li>Added support for user-specific config directory.</li>
           <li>Aded option to include all warnings into the validation report (both GUI and CLI)</li>
