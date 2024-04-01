@@ -1,7 +1,7 @@
 {
     "id": "org.verapdf.veraPDF",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "22.08",
+    "runtime-version": "23.08",
     "command": "verapdf-gui",
     "sdk": "org.freedesktop.Sdk",
     "sdk-extensions": ["org.freedesktop.Sdk.Extension.openjdk11"],
@@ -79,8 +79,8 @@
             "sources": [
               {
                 "type": "archive",
-                "url": "https://imagemagick.org/download/releases/ImageMagick-7.0.8-68.tar.xz",
-                "sha256": "3639baa6ceb5db38b1b48a4b917f90fe007ca7edca1f7894d5555a0bc746305a"
+                "url": "https://download.imagemagick.org/archive/releases/ImageMagick-7.1.1-29.tar.xz",
+                "sha256": "f140465fbeb0b4724cba4394bc6f6fb32715731c1c62572d586f4f1c8b9b0685"
               }
             ]
         },
@@ -109,8 +109,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://software.verapdf.org/releases/1.22/verapdf-greenfield-1.22.3-installer.zip",
-                    "sha256": "483bfb2dd339cc7df9273bc6521821a507079975bd5e5f192024ef2616251353"
+                    "url": "https://software.verapdf.org/releases/1.24/verapdf-greenfield-1.24.3-installer.zip",
+                    "sha256": "065f7767cc254e611eaf784444995f5d9dfc5285f2e3145bddb5afdfc540c6ed"
                 },
                 {
                   "type": "file",
