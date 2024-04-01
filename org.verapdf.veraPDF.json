@@ -114,7 +114,7 @@
                 },
                 {
                   "type": "file",
-                  "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-apps/v1.23.3/gui/src/main/resources/org/verapdf/gui/images/icon.png",
+                  "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-apps/v1.24.3/gui/src/main/resources/org/verapdf/gui/images/icon.png",
                   "sha256": "32a7bbe7a7107dffa44cf601fc2af818806d6b9ca13056cea9f033264ced0b4f"
                 },
                 {
