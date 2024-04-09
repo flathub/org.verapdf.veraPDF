@@ -35,6 +35,22 @@
   <update_contact>nbenitezl_AT_gmail.com</update_contact>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release version="1.24" date="2023-06-28">
+      <description>
+        <ul>
+          <li>Added support for the processing of PDFs within zip archives.</li>
+          <li>The GUI now has a cancel button to allow the user to halt processing.</li>
+          <li>The new –progress parameter enables command line progress reporting.</li>
+          <li>A new –config parameter allows users to pass their own configuration files, plus various bug fixes around configuration handling.</li>
+          <li>Support for Jakarta and Spring Boot 3 for Java 11+.</li>
+          <li>Support for JSON feature reporting.</li>
+          <li>Support for PDF 2.0 namespace and standard structure elements with additional PDF parsing bug fixes.</li>
+          <li>Fixes of unhandled exceptions in malicious PDFs.</li>
+          <li>Assorted minor bug fixes.</li>
+        </ul>
+      </description>
+      <url>https://verapdf.org/2023/06/28/verapdf-1-24-released/</url>
+    </release>
     <release version="1.22.2" date="2022-05-19">
       <description>
         <ul>
