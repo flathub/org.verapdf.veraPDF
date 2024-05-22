@@ -35,6 +35,24 @@
   <update_contact>nbenitezl_AT_gmail.com</update_contact>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release version="1.26" date="2024-05-22">
+      <description>
+        <ul>
+          <li>(PDF/UA-2) added support for PDF/UA-2 (draft).</li>
+          <li>(PDF/UA-2) supported named structured destinations in goto actions.</li>
+          <li>(PDF/UA-1) fixed rules about annotations.</li>
+          <li>Set secure parameter for xslt transformation CVE-2024-28109.</li>
+          <li>Improved multithreading performance of JavaScript evaluation.</li>
+          <li>Added support for Java 21.</li>
+          <li>(PDF/UA-2) include ISO 32005 rules to PDF/UA-2 profile.</li>
+          <li>(PDF/UA-2) added rule about Ref entry of Note structure element.</li>
+          <li>(PDF/UA-2) supported validation of Open Action destination.</li>
+          <li>(PDF/UA-2) disabled ActualText and Alt validation for non-real content.</li>
+          <li>(PDF/UA-2) fixed checking of role mapping structure types to the same namespace.</li>
+        </ul>
+      </description>
+      <url>https://verapdf.org/2023/06/28/verapdf-1-24-released/</url>
+    </release>
     <release version="1.24" date="2023-06-28">
       <description>
         <ul>
@@ -49,7 +67,7 @@
           <li>Assorted minor bug fixes.</li>
         </ul>
       </description>
-      <url>https://verapdf.org/2023/06/28/verapdf-1-24-released/</url>
+      <url>https://github.com/veraPDF/veraPDF-library/releases/tag/v1.24.2/</url>
     </release>
     <release version="1.22.2" date="2022-05-19">
       <description>
