@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=veraPDF
 GenericName=PDF/A conformance validator
-Comment=veraPDF is a file-format validator covering all PDF/A parts and conformance levels
+Comment=veraPDF is an open-source, industry-supported PDF/A and PDF/UA validator
 Exec=verapdf-gui %F
 Icon=org.verapdf.veraPDF
 Terminal=false
