@@ -39,16 +39,21 @@
       <description>
         <ul>
           <li>(PDF/UA-2) added support for PDF/UA-2 (draft).</li>
-          <li>(PDF/UA-2) supported named structured destinations in goto actions.</li>
-          <li>(PDF/UA-1) fixed rules about annotations.</li>
-          <li>Set secure parameter for xslt transformation CVE-2024-28109.</li>
+          <li>(PDF/UA-1) detect and report structure elements with missing parent.</li>
+          <li>(PDF/UA-1) fixed checks related to role maps between standard and non-standard tags.</li>
+          <li>(PDF/UA-1) fixed rules related to annotations in structure tree.</li>
+          <li>(PDF/UA-1) added checks for XMP prefixes in the identification metadata.</li>
+          <li>(PDF/A-1,2,3,4) added check for valid values of BitsPerComponent.</li>
+          <li>(PDF/A-2,3,4) apply the rule on identical tint transform also to /All and /None.</li>
+          <li>(PDF/A-1) added check that the document does not use xref stream.</li>
+          <li>(PDF/A-1) Fix syncing XMP with Info dictionary in case of multiple creators.</li>
+          <li>Improved REST API: more logical endpoints, documentation, web demo page, automatic deployment of the docker image to DockerHub.com.</li>
+          <li>Redesigned main GUI window.</li>
+          <li>Improved CLI output (help, debug logs, text report, JSON report formatting).</li>
+          <li>added support for Java 21.</li>
           <li>Improved multithreading performance of JavaScript evaluation.</li>
-          <li>Added support for Java 21.</li>
-          <li>(PDF/UA-2) include ISO 32005 rules to PDF/UA-2 profile.</li>
-          <li>(PDF/UA-2) added rule about Ref entry of Note structure element.</li>
-          <li>(PDF/UA-2) supported validation of Open Action destination.</li>
-          <li>(PDF/UA-2) disabled ActualText and Alt validation for non-real content.</li>
-          <li>(PDF/UA-2) fixed checking of role mapping structure types to the same namespace.</li>
+          <li>Set secure parameter for xslt transformation (CVE-2024-28109).</li>
+          <li>Updated predefined CMaps.</li>
         </ul>
       </description>
       <url>https://verapdf.org/2023/06/28/verapdf-1-24-released/</url>
