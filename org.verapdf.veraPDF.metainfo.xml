@@ -38,6 +38,26 @@
     <release version="1.28.1" date="2025-05-06">
       <description>
         <ul>
+          <li>fixed parsing of empty UTF-16 string</li>
+          <li>fixed parsing of CFF fonts with empty Name Index</li>
+          <li>updated width calculation for CFFType1 font program with duplicated glyph names</li>
+          <li>fixed name calculation for glyph with code 0</li>
+          <li>fixed signature EOF logic in incremental updates</li>
+          <li>fixed parsing of compressed CIDToGIDMap stream</li>
+          <li>(WTPDF-1) added support for WTPDF Reuse and Accessibility conformance levels</li>
+          <li>(PDF/A, PDF/UA) fixes the issue of accepting sometimes string value type if the PDF specification requires name object type</li>
+          <li>(PDF/A) fixed validation of Interpolate entry in image mask dictionaries</li>
+          <li>(PDF/A-1) updated the rule on compressed XMP Metadata</li>
+          <li>(PDF/UA-1) added rule about PDF version</li>
+          <li>(PDF/UA-1) fixed recursive propagation of Artifact to untagged Form XObjects</li>
+          <li>(PDF/UA-1,2) fixed handing of circular role mappings and namespaces</li>
+          <li>(PDF/UA-1,2) permit untagged tilling patterns</li>
+          <li>(PDF/UA-2) permit math structure type only within Formula</li>
+          <li>(PDF/UA-2) added rule to require Metadata entry in Catalog</li>
+          <li>(ISO 32005) updated Div, Part, NonStruct processing to inherit containment rules from the parent</li>
+          <li>(ISO 32005) added containment rules for Ruby and Warichu</li>
+          <li>(ISO 32005) permitted Sub as a child of Code</li>
+          <li>(ISO 32005) fixed rule on content items in StructTreeRoot</li>
           <li>(PDF/UA-1,2, WTPDF-1, ISO 32005) added rules to require Marked=true entry in MarkInfo dictionary</li>
           <li>(PDF/UA-2, WTPDF-1, ISO 32005) fixed parent-child rules for NonStruct, Part and Div</li>
           <li>(PDF/UA-2, WTPDF-1, ISO 32005) fixed exception during table validation in cases of invalid table structure</li>
@@ -47,6 +67,16 @@
           <li>fixed xref parsing in some exceptional cases and improved error reporting</li>
           <li>fixed parsing of indirect Kids in number tree</li>
           <li>fixed invalid byte range parsing in CMap stream</li>
+          <li>added validation for several flavours</li>
+          <li>created docker image for veraPDF CLI</li>
+          <li>added showing location of config</li>
+          <li>improved performance</li>
+          <li>improved logs</li>
+          <li>more robust exception handling</li>
+          <li>updated PDF/A-4 and PDF/UA-2 test corpus</li>
+          <li>added WTPDF declarations to PDF/UA-2 test files</li>
+          <li>improved java docs</li>
+          <li>improved policy documentation</li>
           <li>updated izpack to version 5.2.4</li>
         </ul>
       </description>
