@@ -6,7 +6,7 @@
   <project_license>GPL-3.0-only</project_license>
   <developer_name>veraPDF Consortium</developer_name>
   <name>veraPDF</name>
-  <summary>veraPDF is a file-format validator for PDF/A archiving standard</summary>
+  <summary>veraPDF is a file-format validator for the PDF/A archiving standard</summary>
   <description>
     <p>
     	veraPDF is a purpose-built, open source, file-format validator covering all PDF/A parts and conformance levels.
@@ -35,6 +35,23 @@
   <update_contact>nbenitezl_AT_gmail.com</update_contact>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release version="1.28.1" date="2025-05-06">
+      <description>
+        <ul>
+          <li>(PDF/UA-1,2, WTPDF-1, ISO 32005) added rules to require Marked=true entry in MarkInfo dictionary</li>
+          <li>(PDF/UA-2, WTPDF-1, ISO 32005) fixed parent-child rules for NonStruct, Part and Div</li>
+          <li>(PDF/UA-2, WTPDF-1, ISO 32005) fixed exception during table validation in cases of invalid table structure</li>
+          <li>(PDF/UA-2, WTPDF-1) fixed mismatch of structure destinations in Link annotations</li>
+          <li>(PDF/UA-2, WTPDF-1) fixed rule about alternative text for signature graphic content with no text</li>
+          <li>(PDF/UA-2, WTPDF-1) fixed checking ToggleNoView flag for annotations</li>
+          <li>fixed xref parsing in some exceptional cases and improved error reporting</li>
+          <li>fixed parsing of indirect Kids in number tree</li>
+          <li>fixed invalid byte range parsing in CMap stream</li>
+          <li>updated izpack to version 5.2.4</li>
+        </ul>
+      </description>
+      <url>https://github.com/veraPDF/veraPDF-library/releases/tag/v1.28.1</url>
+    </release>
     <release version="1.26" date="2024-05-22">
       <description>
         <ul>
@@ -56,7 +73,7 @@
           <li>Updated predefined CMaps.</li>
         </ul>
       </description>
-      <url>https://verapdf.org/2023/06/28/verapdf-1-24-released/</url>
+      <url>https://github.com/veraPDF/veraPDF-library/releases/tag/v1.26.1/</url>
     </release>
     <release version="1.24" date="2023-06-28">
       <description>
