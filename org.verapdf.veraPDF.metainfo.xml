@@ -35,6 +35,24 @@
   <update_contact>nbenitezl_AT_gmail.com</update_contact>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release version="1.28.2" date="2025-07-15">
+      <description>
+        <ul>
+          <li>updated vulnerable dependencies</li>
+          <li>(PDF/UA-2, WTPDF-1) disabled rule about multiple link annotations that target the same location</li>
+          <li>(PDF/UA-2, WTPDF-1) fixed structure destination validation</li>
+          <li>fixed validation of Unicode for several flavours</li>
+          <li>fixed width calculation in an edge case of Type2CharString</li>
+          <li>fixed COSPredictorDecode</li>
+          <li>fixed RDF parsing with no attributes in metadata</li>
+          <li>fixed exceptions in case of malformed PDFs</li>
+          <li>moved Maven publication from the decommissioned Sonatype service to Maven central publication</li>
+          <li>added the new maven-central-publication plugin to veraPDF-parent POM for publication for all projects</li>
+          <li>updated the Maven plugins used to the latest versions</li>
+        </ul>
+      </description>
+      <url>https://github.com/veraPDF/veraPDF-library/releases/tag/v1.28.2</url>
+    </release>
     <release version="1.28.1" date="2025-05-06">
       <description>
         <ul>
