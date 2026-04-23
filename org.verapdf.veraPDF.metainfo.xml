@@ -35,6 +35,23 @@
   <update_contact>nbenitezl_AT_gmail.com</update_contact>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release version="1.30.1" date="2026-04-20">
+      <description>
+        <ul>
+          <li>(PDF/A-4, PDF/UA-2) added validation of pdfaid:rev and pdfuaid:rev</li>
+          <li>(PDF/UA-2, WTPDF-1) permit math to be not necessarily an immediate child of Formula structure element</li>
+          <li>(PDF/UA-2, WTPDF-1) limited PDF/UA-2 8.10.1 and 8.10.2 clauses to Widget annotations used as the appearance of interactive form fields.</li>
+          <li>(PDF/A-1) fixed matching date validation in case any dates are missing in the XMP metadata.</li>
+          <li>(PDF/UA-1,2, WTPDF-1) permitted top left cells with no Scope in Table structure element.</li>
+          <li>Fixed runtime exceptions in cases of invalid data structures.</li>
+          <li>End of PDFBox support</li>
+          <li>Added support for Java 25.</li>
+          <li>Added automatic module names to the MANIFEST files.</li>
+          <li>Fixed thread safety issues.</li>
+        </ul>
+      </description>
+      <url>https://github.com/veraPDF/veraPDF-library/releases/tag/v1.30.1</url>
+    </release>
     <release version="1.28.2" date="2025-07-15">
       <description>
         <ul>
